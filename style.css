@@ -65,18 +65,22 @@ p {
 
 form {
   position: absolute;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
+  top: 200px;
+  right: 50px;
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding: 0;
 }
 
 fieldset {
   border: none;
+}
+
+.slide__container {
+  position: absolute;
+  top: 305px;
+  left: 160px;
 }
