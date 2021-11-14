@@ -7,8 +7,7 @@
 .container {
   position: absolute;
   top: 109px;
-  left: 300px;
-  width: 686px;
+  width: 690px;
   height: 390px;
   border-radius: 1%;
   background: #152335;
@@ -24,4 +23,60 @@
   position: absolute;
   top: 23px;
   left: 20px;
+}
+
+.cart-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: "MuseoSansRounded";
+  src: url(fonts/MuseoSansRounded-100.ttf);
+}
+
+.main-tittle {
+  font-family: museo-sans-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  color: rgb( 225, 225, 225);
+  line-height: 1.083;
+  position: absolute;
+  left: 443px;
+  top: 58px;
+  width: 163px;
+}
+
+p {
+  font-family: museo-sans-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  color: rgb( 225, 225, 225);
+  line-height: 1.083;
+  position: absolute;
+  left: 443px;
+  top: 121px;
+  width: 186px;
+}
+
+form {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+fieldset {
+  border: none;
 }
