@@ -1,0 +1,27 @@
+.main-bg {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  top: 109px;
+  left: 300px;
+  width: 686px;
+  height: 390px;
+  border-radius: 1%;
+  background: #152335;
+}
+
+.container__img {
+  position: absolute;
+  top: 123px;
+  left: 36px;
+}
+
+.logo__img {
+  position: absolute;
+  top: 23px;
+  left: 20px;
+}
