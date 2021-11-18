@@ -13,29 +13,41 @@
   <div class="main-bg">
     <img class="main-bg__img" src="main-bg.png" alt="background">
     <div class="container">
-      <div class="logo__container">
-        <a class="logo__link" href="index.html">
+      <div class="container__logo">
+        <a class="logo" href="index.html">
           <img class="logo__img" src="logo.png">
         </a>
+        <img class="container__img" src="images/shoe.png" alt="man shoe">
       </div>
-      <img class="container__img" src="images/shoe.png" alt="man shoe">
-      <div class="cart-box">
-        <div class="main-tittle__cart-box">
-          <h1 class="main-tittle">Nike SB Stefan Janoski Max</h1>
+      <div class="container__cart-box cart-box">
+        <div class="container__tittle">
+          <h1 class="tittle">Nike SB Stefan Janoski Max</h1>
           <p>Unisex Skateboarding Shoe</p>
         </div>
+        <div class="container__stars stars">
+          <!--
+            <ul class="star">
+              <li><img src="images/star.svg" alt="rating"></li>
+              <li><img src="images/star.svg" alt="rating"></li>
+              <li><img src="images/star.svg" alt="rating"></li>
+              <li><img src="images/star.svg" alt="rating"></li>
+              <li><img src="images/star.svg" alt="rating"></li>
+  
+            </ul>
+          -->
+
+
+        </div>
         <form action="#" method="get">
-
-
           <ul class="select">
-            <li> <select name="size">
+            <li> <select class="size" name="size">
                 <option value="size" selected>Size</option>
                 <option value="40">40</option>
                 <option value="41">41</option>
                 <option value="41">42</option>
                 <option value="41">43</option>
               </select></li>
-            <li><select name="city">
+            <li><select class="city" name="city">
                 <option value="city" selected>City</option>
                 <option value="Kyiv">Kyiv</option>
                 <option value="Lviv">Lviv</option>
@@ -45,17 +57,16 @@
           </ul>
 
 
-          <input type="submit" name="submit">
+          <input class="submit" type="submit" name="submit" value="Add to card">
 
 
         </form>
       </div>
-      <div class="slide__container">
-        <input type="radio" name="slide" value="grey" checked>
+      <div class="radio-buttons">
+        <input type="radio" name="slide" value="gray" checked>
         <input type="radio" name="slide" value="white">
         <input type="radio" name="slide" value="red">
         <input type="radio" name="slide" value="aqua">
-
       </div>
     </div>
   </div>

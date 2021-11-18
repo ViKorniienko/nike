@@ -11,6 +11,8 @@
   height: 390px;
   border-radius: 1%;
   background: #152335;
+  color: #AFB0B4;
+  fill: #AFB0B4;
 }
 
 .container__img {
@@ -37,12 +39,12 @@
   src: url(fonts/MuseoSansRounded-100.ttf);
 }
 
-.main-tittle {
+.tittle {
   font-family: museo-sans-rounded, sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 24px;
-  color: rgb( 225, 225, 225);
+  color: #AFB0B4;
   line-height: 1.083;
   position: absolute;
   left: 443px;
@@ -55,32 +57,88 @@ p {
   font-style: normal;
   font-weight: 100;
   font-size: 15px;
-  color: rgb( 225, 225, 225);
+  color: #AFB0B4;
   line-height: 1.083;
   position: absolute;
   left: 443px;
   top: 121px;
   width: 186px;
+  margin-bottom: 0px;
 }
 
 form {
   position: absolute;
   top: 200px;
-  right: 50px;
+  right: 66px;
+}
+
+.size, .city {
+  padding-block: 5px;
+  background-color: transparent;
+  color: #AFB0B4;
+}
+
+.size:hover {
+  background-color: transparent;
+  color: #2A3544;
+}
+
+.city:hover {
+  background-color: transparent;
+  color: #2A3544;
+}
+
+.stars {
+  position: absolute;
+  top: 185px;
+  right: 125px;
+  color: #AFB0B4;
+  margin-top: -15px;
+  margin-right: 110px;
+}
+
+.star {
+  max-width: 5px;
+  margin-top: 0px;
 }
 
 ul {
   display: flex;
+  justify-content: flex-start;
   list-style: none;
   padding: 0;
+  gap: 3px;
 }
 
 fieldset {
   border: none;
+  color: #AFB0B4;
 }
 
-.slide__container {
+.submit {
+  background-color: #2A3544;
+  color: #AFB0B4;
+  width: 170px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.submit:hover {
+  background-color: #AFB0B4;
+  color: #2A3544;
+}
+
+.submit:active {
+  margin-top: 1px;
+  margin-bottom: -1px;
+  zoom: 1;
+  transition: 0.3s;
+}
+
+.radio-buttons {
+  display: inline-flex;
   position: absolute;
-  top: 305px;
-  left: 160px;
+  top: 355px;
+  left: 170px;
 }
