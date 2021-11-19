@@ -13,6 +13,7 @@
   background: #152335;
   color: #AFB0B4;
   fill: #AFB0B4;
+  box-shadow: 1px 1px 20px 1px #152335
 }
 
 .container__img {
@@ -84,6 +85,11 @@ form {
 }
 
 .city:hover {
+  background-color: transparent;
+  color: #2A3544;
+}
+
+.select:hover {
   background-color: transparent;
   color: #2A3544;
 }
