@@ -98,7 +98,6 @@ form {
   position: absolute;
   top: 185px;
   right: 125px;
-  color: #AFB0B4;
   margin-top: -15px;
   margin-right: 110px;
 }
@@ -106,6 +105,10 @@ form {
 .star {
   max-width: 5px;
   margin-top: 0px;
+}
+
+.star01 {
+  fill: yellow;
 }
 
 ul {
