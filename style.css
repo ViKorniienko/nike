@@ -1,9 +1,12 @@
 body {
   max-width: 800px;
-  max-height: 550px;
+  max-height: 660px;
   margin: 0px;
   margin-top: 0px;
   margin-left: 20em;
+  color: inherit;
+  font-weight: 100;
+  font-family: "Museo Sans Rounded", sans-serif;
 }
 
 .product-card {
@@ -53,7 +56,7 @@ body {
 }
 
 .tittle {
-  font-family: museo-sans-rounded, sans-serif;
+  font-family: "museo-sans-rounded", sans-serif;
   font-style: normal;
   font-weight: 100;
   font-size: 24px;
@@ -110,22 +113,21 @@ form {
   position: absolute;
   top: 165px;
   right: 125px;
-  margin-top: -15px;
   margin-right: 110px;
-}
-
-.stars {
   max-width: 5px;
   margin-top: 0px;
+  cursor: pointer;
 }
+
 
 .star01 {
   fill: yellow;
 }
 
-.star02 {
+.star02, .star03, .star04, .star05 {
   filter: grayscale(1);
 }
+
 
 ul {
   display: flex;

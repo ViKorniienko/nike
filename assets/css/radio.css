@@ -6,18 +6,18 @@
 }
 
 .slider {
-  display: flex;
+  left: 175px;
+  position: absolute;
   justify-content: center;
   align-items: center;
   gap: 5px;
-  height: 100vh;
+  top: 338px;
 }
 
 .slide {
-  position: absolute;
-  top: 115px;
-  left: 65px;
-  width: 300px;
+  position: relative;
+  bottom: 243px;
+  left: -129px;
 }
 
 /*
@@ -25,7 +25,6 @@
   img {
     width: 100%;
   }
-
 */
 
 [type="radio"]::before {
