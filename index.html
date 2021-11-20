@@ -6,37 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="radio.css">
+
   <title>Nike</title>
 </head>
 
 <body>
-  <div class="main-bg">
-    <img class="main-bg__img" src="main-bg.png" alt="background">
+  <div class="product-card">
+
     <div class="container">
       <div class="container__logo">
         <a class="logo" href="index.html">
           <img class="logo__img" src="logo.png">
         </a>
-        <img class="container__img" src="images/shoe.png" alt="man shoe">
       </div>
       <div class="container__cart-box cart-box">
         <div class="container__tittle">
           <h1 class="tittle">Nike SB Stefan Janoski Max</h1>
           <p>Unisex Skateboarding Shoe</p>
         </div>
-        <div class="container__stars stars">
-          <!--
-            <svg height="210" width="500">
-              <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:yellow;" />
-            </svg>
-         </!-->
-          <ul class="star">
+        <div class="stars">
+
+          <ul>
 
             <li><img class="star01" src="images/star.svg" alt="rating"></li>
             <li><img class="star01" src="images/star.svg" alt="rating"></li>
             <li><img class="star01" src="images/star.svg" alt="rating"></li>
-            <li><img src="images/star.svg" alt="rating"></li>
-            <li><img src="images/star.svg" alt="rating"></li>
+            <li><img class="star02" src="images/star.svg" alt="rating"></li>
+            <li><img class="star02" src="images/star.svg" alt="rating"></li>
 
           </ul>
 
@@ -67,12 +64,16 @@
 
         </form>
       </div>
-      <div class="radio-buttons">
-        <input type="radio" name="slide" value="gray" checked>
-        <input type="radio" name="slide" value="white">
-        <input type="radio" name="slide" value="red">
-        <input type="radio" name="slide" value="aqua">
+
+      <div class="slider">
+        <input type="radio" name="radio" value="gray" checked>
+        <input type="radio" name="radio" value="white">
+        <input type="radio" name="radio" value="red">
+        <input type="radio" name="radio" value="aqua">
+        <div class="slide"><img src="images/shoe.png" alt=""><img src="images/shoe1.png" alt=""><img
+            src="images/shoe2.png" alt=""><img src="images/shoe3.png" alt=""></div>
       </div>
+
     </div>
   </div>
 </body>
