@@ -9,6 +9,10 @@ body {
   font-family: "Museo Sans Rounded", sans-serif;
 }
 
+:focus-visible {
+  outline: 1px solid gray;
+}
+
 .product-card {
   display: flex;
   margin-top: 0;
@@ -63,7 +67,7 @@ body {
   color: #AFB0B4;
   line-height: 1.083;
   position: absolute;
-  left: 443px;
+  left: 455px;
   top: 58px;
   width: 163px;
 }
@@ -76,7 +80,7 @@ p {
   color: #AFB0B4;
   line-height: 1.083;
   position: absolute;
-  left: 443px;
+  left: 455px;
   top: 121px;
   width: 186px;
   margin-bottom: 0px;
@@ -109,24 +113,8 @@ form {
   color: #2A3544;
 }
 
-.stars {
-  position: absolute;
-  top: 165px;
-  right: 125px;
-  margin-right: 110px;
-  max-width: 5px;
-  margin-top: 0px;
-  cursor: pointer;
-}
 
 
-.star01 {
-  fill: yellow;
-}
-
-.star02, .star03, .star04, .star05 {
-  filter: grayscale(1);
-}
 
 
 ul {
