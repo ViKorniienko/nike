@@ -1,0 +1,51 @@
+.rating-area {
+  overflow: hidden;
+  width: 265px;
+  margin: 0 auto;
+  position: absolute;
+  top: 180px;
+  right: 150px;
+}
+
+
+.rating-area:not(:checked)>input {
+  display: none;
+}
+
+.rating-area:not(:checked)>label {
+  float: right;
+  width: 17px;
+  padding: 0;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 16px;
+  color: #B2B3B8;
+}
+
+.rating-area:not(:checked)>label:before {
+  content: '★';
+  background-color: #152335;
+}
+
+.rating-area>input:checked~label {
+  color: gold;
+
+}
+
+.rating-area:not(:checked)>label:hover,
+.rating-area:not(:checked)>label:hover~label {
+  color: gold;
+}
+
+.rating-area>input:checked+label:hover,
+.rating-area>input:checked+label:hover~label,
+.rating-area>input:checked~label:hover,
+.rating-area>input:checked~label:hover~label,
+.rating-area>label:hover~input:checked~label {
+  color: gold;
+
+}
+
+.rate-area>label:active {
+  position: relative;
+}

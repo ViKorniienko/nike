@@ -1,17 +1,38 @@
-.main-bg {
+body {
+  max-width: 800px;
+  max-height: 660px;
+  margin: 0px;
+  margin-top: 0px;
+  margin-left: 20em;
+  color: inherit;
+  font-weight: 100;
+  font-family: "Museo Sans Rounded", sans-serif;
+}
+
+:focus-visible {
+  outline: 1px solid gray;
+}
+
+.product-card {
   display: flex;
   margin-top: 0;
   justify-content: center;
+  align-content: center;
+  background-image: url(main-bg.png);
+  height: 85vh;
+  background-size: cover;
 }
 
 .container {
   position: absolute;
   top: 109px;
-  left: 300px;
-  width: 686px;
+  width: 690px;
   height: 390px;
   border-radius: 1%;
   background: #152335;
+  color: #AFB0B4;
+  fill: #AFB0B4;
+  box-shadow: 1px 1px 20px 1px #152335
 }
 
 .container__img {
@@ -24,4 +45,108 @@
   position: absolute;
   top: 23px;
   left: 20px;
+}
+
+.cart-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+@font-face {
+  font-family: "MuseoSansRounded";
+  src: url(fonts/MuseoSansRounded-100.ttf);
+}
+
+.tittle {
+  font-family: "museo-sans-rounded", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  color: #AFB0B4;
+  line-height: 1.083;
+  position: absolute;
+  left: 455px;
+  top: 58px;
+  width: 163px;
+}
+
+p {
+  font-family: museo-sans-rounded, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 15px;
+  color: #AFB0B4;
+  line-height: 1.083;
+  position: absolute;
+  left: 455px;
+  top: 121px;
+  width: 186px;
+  margin-bottom: 0px;
+}
+
+form {
+  position: absolute;
+  top: 200px;
+  right: 66px;
+}
+
+.size, .city {
+  padding-block: 5px;
+  background-color: transparent;
+  color: #AFB0B4;
+}
+
+.size:hover {
+  background-color: transparent;
+  color: #2A3544;
+}
+
+.city:hover {
+  background-color: transparent;
+  color: #2A3544;
+}
+
+.select:hover {
+  background-color: transparent;
+  color: #2A3544;
+}
+
+
+
+
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+  gap: 3px;
+}
+
+fieldset {
+  border: none;
+  color: #AFB0B4;
+}
+
+.submit {
+  background-color: #2A3544;
+  color: #AFB0B4;
+  width: 170px;
+  height: 40px;
+  cursor: pointer;
+  border: 1px solid;
+}
+
+.submit:hover {
+  background-color: #AFB0B4;
+  color: #2A3544;
+}
+
+.submit:active {
+  margin-top: 1px;
+  margin-bottom: -1px;
+  zoom: 1;
+  transition: 0.3s;
 }

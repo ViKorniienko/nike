@@ -6,19 +6,74 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/radio.css">
+  <link rel="stylesheet" href="assets/css/rating-area.css">
+
   <title>Nike</title>
 </head>
 
 <body>
-  <div class="main-bg">
-    <img class="main-bg__img" src="main-bg.png" alt="background">
+  <div class="product-card">
+
     <div class="container">
-      <div class="logo__container">
-        <a class="logo__link" href="index.html">
+      <div class="container__logo">
+        <a class="logo" href="index.html">
           <img class="logo__img" src="logo.png">
         </a>
       </div>
-      <img class="container__img" src="sneaker.png" alt="sneaker">
+      <div class="container__cart-box cart-box">
+        <div class="container__tittle">
+          <h1 class="tittle">Nike SB Stefan Janoski Max</h1>
+          <p>Unisex Skateboarding Shoe</p>
+        </div>
+        <div class="rating-area">
+          <input type="radio" id="star-5" name="rating" value="5">
+          <label for="star-5" title="rating «5»"></label>
+          <input type="radio" id="star-4" name="rating" value="4">
+          <label for="star-4" title="rating «4»"></label>
+          <input type="radio" id="star-3" name="rating" value="3">
+          <label for="star-3" title="rating «3»"></label>
+          <input type="radio" id="star-2" name="rating" value="2">
+          <label for="star-2" title="rating «2»"></label>
+          <input type="radio" id="star-1" name="rating" value="1">
+          <label for="star-1" title="rating «1»"></label>
+        </div>
+
+
+        <form action="#" method="get">
+          <ul class="select">
+            <li> <select class="size" name="size" title="choose size">
+                <option value="size" selected>Size</option>
+                <option value="40">40</option>
+                <option value="41">41</option>
+                <option value="41">42</option>
+                <option value="41">43</option>
+              </select></li>
+            <li><select class="city" name="city" title="choose city">
+                <option value="city" selected>City</option>
+                <option value="Kyiv">Kyiv</option>
+                <option value="Lviv">Lviv</option>
+                <option value="Kharkiv">Kharkiv</option>
+                <option value="Odessa">Odessa</option>
+              </select></li>
+          </ul>
+
+
+          <input class="submit" type="submit" name="submit" value="Add to card" title="add to card">
+
+
+        </form>
+      </div>
+
+      <div class="slider">
+        <input type="radio" name="radio" value="gray" checked title="choose model of shoe">
+        <input type="radio" name="radio" value="white" title="choose model of shoe">
+        <input type="radio" name="radio" value="red" title="choose model of shoe">
+        <input type="radio" name="radio" value="aqua" title="choose model of shoe">
+        <div class="slide"><img src="images/shoe.png" alt=""><img src="images/shoe1.png" alt=""><img
+            src="images/shoe2.png" alt=""><img src="images/shoe3.png" alt=""></div>
+      </div>
+
     </div>
   </div>
 </body>
